@@ -9,7 +9,6 @@ let global = document.getElementById('global');
 num = 0;
 let met = [];
 
-
 area.addEventListener('click' , function (event) {
     if (event.target.innerHTML === '') {
         met.push(event.target);
@@ -67,7 +66,7 @@ function check () {
                 },2000);  
             }; 
         
-            if ( pointx.innerText < "10" || pointo.innerText < "10") {
+            if ( pointx.innerText === "10" || pointo.innerText === "10") {
              pointx.innerText = 0;
              pointo.innerText = 0;
             } 
@@ -88,32 +87,3 @@ function check () {
              met[ax].innerHTML  = '' ;
              };
         };
-            
-             
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-        
-       
- 
-
-     

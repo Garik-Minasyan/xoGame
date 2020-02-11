@@ -1,8 +1,6 @@
-
 body {
   background-color: gray;
 }
-
  .areawrapper {
 width: 100%;
 height: 100%;
@@ -10,7 +8,6 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
-
 
 #area {
   width: 300px;
@@ -21,7 +18,6 @@ align-items: center;
   margin-top: 5px;
   border-radius: 10px;
   border: 2px solid black;
-
 }
 
 .box {
@@ -38,19 +34,15 @@ align-items: center;
     transition: 0.5s;
     border-radius: 8px;
 }
-
   .box:hover {
        color: orange;
        transition: 0.5s;
        background-color:gray;
        border:  1px solid white;
     }
- 
-
 .divimg {
   border: 5px solid orange;
 }
-
 
 #chenpionx {
   width: 150px;
@@ -64,7 +56,6 @@ align-items: center;
    color: black;
    
 }
-
 #chenpiono {
   width: 150px;
   height: 45px;
@@ -99,9 +90,7 @@ align-items: center;
   margin-left: 150px;
   transition: 1.5s;
   user-select: none;
-
 }
-
 #clear:hover {
   background-color:black ;
   color: aliceblue;
@@ -123,14 +112,12 @@ align-items: center;
   align-items: center;
   margin-top: 10px;
 }
-
  .showx{
   display: flex;
   align-items: center;
   margin-top: -5px;
   user-select: none;
 } 
-
 .show{
   width: 300px;
   height: 120px;
